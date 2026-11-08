@@ -1,0 +1,15 @@
+{
+  "name": "limitrole-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot de gestion des limites de membres par rôle.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check storage.js && node --check logger.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.9"
+  }
+}
